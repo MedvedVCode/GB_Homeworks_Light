@@ -11,3 +11,21 @@ const sumPositiveNumbers = (a, b) => {
 console.log(sumPositiveNumbers('a', 10))
 console.log(sumPositiveNumbers(-1, 10))
 console.log(sumPositiveNumbers(15, 10))
+
+const month = 'a'
+switch (month) {
+    case 12:
+        console.log('December')
+        break
+    case 2:
+        console.log('February')
+        break
+    case 1:
+        console.log('January')
+        break
+    default:
+        console.log('Not a month')
+}
+
+const values = 5
+console.log(values > 0 ? values + 5 : values - 5)
